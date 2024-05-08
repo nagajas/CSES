@@ -1,6 +1,6 @@
 # CSES Solutions
 
-This repository contains my solutions to the CSES Problemset, serving as a resource for practice purpose only.
+This repository contains my solutions to the CSES Problemset, serving as a resource for my practice.
 
 ## Contact
 
