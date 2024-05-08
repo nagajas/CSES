@@ -1,6 +1,8 @@
 # CSES Solutions
 
-This repository contains my solutions to the CSES Problemset, serving as a resource for my practice.
+This repository contains my solutions to the CSES Problemset, serving as a resource for practice.
+
+It contains both C++ files and its executables. Some solutions also contain Python version.
 
 ## Contact
 
