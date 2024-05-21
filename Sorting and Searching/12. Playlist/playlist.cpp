@@ -43,22 +43,22 @@ int main(){
 //    }
     int n;
     cin>>n;
-    vi k(n);
-    f(i,0,n) cin>>k[i];
+    vi songs(n);
+    f(i,0,n) cin>>songs[i];
     set<int> temp;
     ll curr_len = 0;
     ll max_len = 0;
     f(i,0,n){
-        if(temp.find(k[i]) == temp.end()){
-            temp.insert(k[i]);
+        if(temp.find(songs[i]) == temp.end()){
+            temp.insert(songs[i]);
             curr_len++;
         }
         else{
-            while(temp.find(k[i]) != temp.end()){
-                temp.erase(k[i-curr_len]);
+            while(temp.find(songs[i]) != temp.end()){
+                temp.erase(songs[i-curr_len]);
                 curr_len--;
             }
-            temp.insert(k[i]);
+            temp.insert(songs[i]);
             curr_len++;
         }
         max_len = max(max_len, curr_len);
