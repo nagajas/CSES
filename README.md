@@ -2,7 +2,7 @@
 
 This repository contains my solutions to the CSES Problemset, serving as a resource for practice.
 
-It contains both C++ files and  python files.
+It contains both C++ files and Python files.
 
 ## Files
 
